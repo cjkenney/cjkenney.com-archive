@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `CJ's on the Web`,
+    title: `CJ's On The Web`,
     author: `CJ Kenney`,
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://cjkenney.com/`,
