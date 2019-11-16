@@ -18,7 +18,9 @@ or server-side code.
 ### Well, why not use plain HTML/CSS/JavaScript?
 
 With Gatsby, a developer can utilize modern development tools and build UIs with [React](https://reactjs.org),
-bundle assets with [Webpack](https://webpack.js.org), and dip their toes into [new web architectures](https://jamstack.org).
+bundle assets with [Webpack](https://webpack.js.org), and dip their
+toes into [new web architectures](https://jamstack.org).
+
 In the end, Gatsby outputs only the core data your site needs, with some performance gains for the end user.
 Plain HTML, CSS, and JS are generated at build-time, not during run-time like some other JS libraries.
 
@@ -49,17 +51,50 @@ I'll give a summary here:
 Whew . . . that was a lot of installs. Thankfully now you're
 only 2 minutes away from having a live website! (Really!)
 
-<!-- I'm sure I'll write a lot more interesting things in the future.
+Head to [this GitHub repo](https://github.com/gatsbyjs/gatsby-starter-blog) and look
+for the "Deploy to netlify" button. All you have to do now is name a repository
+and your site will be live!
 
-Oh, and here's a great quote from this Wikipedia on
-[salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).
+![Deploy to Netlify Button](./github-repo-netlify-deploy.png)
 
-> A salted duck egg is a Chinese preserved food product made by soaking duck
-> eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-> supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-> charcoal paste. The eggs may also be sold with the salted paste removed,
-> wrapped in plastic, and vacuum packed. From the salt curing process, the
-> salted duck eggs have a briny aroma, a gelatin-like egg white and a
-> firm-textured, round yolk that is bright orange-red in color.
+![Netlify Setup](./netlify-setup.png)
 
-![Chinese Salty Egg](./salty_egg.jpg) -->
+Netlify will generate a name for your site.
+Mine here is `upbeat-lichterman-974421`. You can now access your site
+at `[yourSiteName].netlify.com`!
+
+![Netlify Deploy](./netlify-deploy.png)
+
+### Create your first blog post!
+
+Navigate to your new repo on GitHub and `git clone` the repo to your
+local machine. Open the repo in a terminal and use these steps
+to start live-editing.
+
+- `cd` into your project location
+  - For example: `cd ~/my-code/my-website-repository`
+- Install your dependencies
+  - `npm install`
+- Run your Gatsby development server
+  - `gatsby develop`
+  - You can now view
+    a preview of the site on `http://localhost:8000`
+
+Feel free to explore around the site! The preview look like this:
+
+![Gatsby Starter Blog](./gatsby-starter-blog.png)
+
+You'll find the blog posts written in Markdown in this folder:
+
+    .
+    ├── content/blog/
+    └── . . .
+
+The easiest way to make your first post is to edit one of the existing posts.
+Open the `.md` file in an editor, change the title, timestamp, and content, then save.
+If you're watching the terminal after you run `gatsby develop` as you
+save the changes, you'll see
+
+1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
+
+2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
