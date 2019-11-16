@@ -67,8 +67,8 @@ at `[yourSiteName].netlify.com`!
 
 ### Create your first blog post!
 
-Navigate to your new repo on GitHub and `git clone` the repo to your
-local machine. Open the repo in a terminal and use these steps
+Navigate to your new repository on GitHub and `git clone` the repository to your
+local machine. Open the repository in a text editor [like VS Code](https://code.visualstudio.com/) and use these steps
 to start live-editing.
 
 - `cd` into your project location
