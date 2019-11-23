@@ -61,7 +61,7 @@ Turns out, Kinco gloves are a cheap and sturdy alternative to [similarly styled,
   - When the gloves no longer absorb the wax, they are fully waterproof!
   - Buff excess wax with a clean rag.
 
-![Applying wax to seams of gloves](./apply-wax2.jpg)
+![Applying wax to seams of gloves](./finished-gloves.jpg)
   - Have fun this winter with your new, waterproof gloves!
 
 #### Note
