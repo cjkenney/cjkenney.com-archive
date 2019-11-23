@@ -93,8 +93,16 @@ You'll find the blog posts written in Markdown in this folder:
 The easiest way to make your first post is to edit one of the existing posts.
 Open the `.md` file in an editor, change the title, timestamp, and content, then save.
 If you're watching the terminal after you run `gatsby develop` as you
-save the changes, you'll see
+save the changes, you'll see a changelog of the markdown file.
 
-1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
+Once you're happy with the changes, add the files to your Git repository. 
 
-2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
+- `git add -A`
+  - Add all of the changed files to the Git index
+- `git commit -m "add my first blog post!"`
+  - Create a Git commit
+- `git push`
+  - Pushes your Git commit to the remote repository (GitHub)
+
+Once you push the changes to the repository, log in to Netlify and you will see your
+new changes being applied to your site.
