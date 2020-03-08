@@ -106,3 +106,5 @@ Once you're happy with the changes, add the files to your Git repository.
 
 Once you push the changes to the repository, log in to Netlify and you will see your
 new changes being applied to your site.
+
+![Netlify Build Status](./netlify-build.png)
