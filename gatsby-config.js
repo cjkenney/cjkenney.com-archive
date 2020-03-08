@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `CJ's On The Web`,
     author: `CJ Kenney`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `A blog written by CJ Kenney who lives and works in Minneapolis. I'm learning all the time, just like you!`,
     siteUrl: `https://cjkenney.com/`,
     social: {
       twitter: `CJKenney_dev`,
