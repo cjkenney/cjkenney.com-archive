@@ -35,9 +35,7 @@
     "typography": "^0.16.19",
     "typography-theme-wordpress-2016": "^0.16.19"
   },
-  "devDependencies": {
-    "prettier": "^1.18.2"
-  },
+  "devDependencies": {},
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "keywords": [
     "gatsby"
