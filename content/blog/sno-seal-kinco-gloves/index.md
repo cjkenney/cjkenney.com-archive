@@ -6,9 +6,9 @@ season and waterproof your Kinco gloves."
 ---
 
 When travelling to ski resorts, you'll notice a lot of patrollers wearing Kinco gloves. Why is this?
-Turns out, Kinco gloves are a cheap and sturdy alternative to [similarly styled, $100 gloves](https://www.evo.com/gloves/burton-gondy-gore-tex-leather#image=152928/641950/burton-gondy-gore-tex-leather-gloves-.jpg).
+Turns out, Kinco gloves are a cheap and sturdy alternative to [similarly styled, \$100 gloves](https://www.evo.com/gloves/burton-gondy-gore-tex-leather#image=152928/641950/burton-gondy-gore-tex-leather-gloves-.jpg).
 
-# Materials*
+# Materials\*
 
 - Kinco Gloves (choose a style)
   - ["Finger" style gloves](https://amzn.to/374ZRTE)
@@ -50,6 +50,7 @@ Turns out, Kinco gloves are a cheap and sturdy alternative to [similarly styled,
 ![Applying wax to gloves](./apply-wax.jpg)
 
 ![Applying wax to seams of gloves](./apply-wax2.jpg)
+
 - Don't forget the seams!
 
 ### Place gloves in oven to set wax
@@ -62,9 +63,10 @@ Turns out, Kinco gloves are a cheap and sturdy alternative to [similarly styled,
 - Buff excess wax with a clean rag.
 
 ![Applying wax to seams of gloves](./finished-gloves.jpg)
+
 - Have fun this winter with your new, waterproof gloves!
 
 #### Note
 
-\* Links to Amazon are part of an affiliate program. If you found this article useful, please 
+\* Links to Amazon are part of an affiliate program. If you found this article useful, please
 consider purchasing through the affiliate links! :)

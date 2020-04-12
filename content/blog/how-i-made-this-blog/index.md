@@ -95,7 +95,7 @@ Open the `.md` file in an editor, change the title, timestamp, and content, then
 If you're watching the terminal after you run `gatsby develop` as you
 save the changes, you'll see a changelog of the markdown file.
 
-Once you're happy with the changes, add the files to your Git repository. 
+Once you're happy with the changes, add the files to your Git repository.
 
 - `git add -A`
   - Add all of the changed files to the Git index
