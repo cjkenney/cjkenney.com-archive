@@ -5,11 +5,11 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React from "react";
-import { useStaticQuery, graphql } from "gatsby";
-import Image from "gatsby-image";
+import React from 'react';
+import { useStaticQuery, graphql } from 'gatsby';
+import Image from 'gatsby-image';
 
-import { rhythm } from "../utils/typography";
+import { rhythm } from '../utils/typography';
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
@@ -21,44 +21,59 @@ const Bio = () => {
           }
         }
       }
-      site {
-        siteMetadata {
-          author
-          social {
-            twitter
-          }
-        }
-      }
     }
   `);
 
-  const { author, social } = data.site.siteMetadata;
   return (
-    <div
-      style={{
-        display: `flex`,
-        marginBottom: rhythm(2.5),
-      }}
-    >
-      <Image
-        fixed={data.avatar.childImageSharp.fixed}
-        alt={author}
+    <>
+      <div
         style={{
-          marginRight: rhythm(1 / 2),
-          marginBottom: 0,
-          minWidth: 50,
-          borderRadius: `100%`,
+          display: 'flex',
+          alignItems: 'center',
         }}
-        imgStyle={{
-          borderRadius: `50%`,
+      >
+        <Image
+          fixed={data.avatar.childImageSharp.fixed}
+          alt={'CJ Kenney'}
+          style={{
+            marginRight: rhythm(1 / 2),
+            marginBottom: 0,
+            minWidth: 50,
+            borderRadius: `100%`,
+          }}
+          imgStyle={{
+            borderRadius: `50%`,
+          }}
+        />
+        <p style={{ margin: 0 }}>
+          Personal blog by CJ Kenney. I write about software and my hobbies.
+        </p>
+      </div>
+      <div
+        style={{
+          display: 'flex',
+          justifyContent: 'center',
+          marginBottom: rhythm(2.5),
         }}
-      />
-      <p>
-        A blog written by{" "}
-        <a href={`https://twitter.com/${social.twitter}`}>{author}</a> who lives
-        and works in Minneapolis. I'm learning all the time. Just like you!
-      </p>
-    </div>
+      >
+        <a
+          href='https://github.com/cjkenney'
+          target='_blank'
+          rel='noopener noreferrer'
+          style={{ marginLeft: '10px', marginRight: '10px' }}
+        >
+          GitHub
+        </a>
+        <a
+          href='https://www.linkedin.com/in/cj-kenney/'
+          target='_blank'
+          rel='noopener noreferrer'
+          style={{ marginLeft: '10px', marginRight: '10px' }}
+        >
+          LinkedIn
+        </a>
+      </div>
+    </>
   );
 };
 
