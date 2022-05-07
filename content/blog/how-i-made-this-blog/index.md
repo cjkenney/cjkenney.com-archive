@@ -1,55 +1,51 @@
 ---
-title: Bootstrapping a Blog With GatsbyJS
+title: How to Bootstrap a Blog With GatsbyJS
 date: '2019-10-07T22:12:03.284Z'
-description: 'How I built this site with GatsbyJS, GitHub, and Netlify.'
+description: 'Building a free, over-engineered website with GatsbyJS and GitHub.'
 ---
 
 Welcome to my first blog post! I thought it would be a great introduction
-to show how I built this blog. Let's get into it.
+to show how I built this blog.
 
 ### What is GatsbyJS?
 
-Gatsby is a static site generator that has gained a lot of attention
-([and a lot of funding](https://www.gatsbyjs.org/blog/2019-09-26-announcing-gatsby-15m-series-a-funding-round/))
-in the past couple of years. It gives developers the necessary tools
+[Gatsby](https://gatsbyjs.org) is a free and open-source framework that helps developers build static sites. It gives developers tools
 to create polished and performant static sites, free of databases
 or server-side code.
 
-### Well, why not use plain HTML/CSS/JavaScript?
+### Why not use plain HTML for a blog?
 
 With Gatsby, a developer can utilize modern development tools and build UIs with [React](https://reactjs.org),
 bundle assets with [Webpack](https://webpack.js.org), and dip their
 toes into [new web architectures](https://jamstack.org).
 
-In the end, Gatsby outputs only the core data your site needs, with some performance gains for the end user.
-Plain HTML, CSS, and JS are generated at build-time, not during run-time like some other JS libraries.
+Gatsby outputs only the core static files your site needs along with performance gains.
 
-A lot of features come "pre-baked" with Gatsby as [plugins](https://www.gatsbyjs.org/plugins/)
-that would be time consuming to create on your own. One of the most important plugins is
-an image processer, [gatsby-plugin-image](https://www.gatsbyjs.com/plugins/gatsby-plugin-image), which handles image lazy-loading, responsiveness, and bleh.
+A lot of features come pre-baked with Gatsby as [plugins](https://www.gatsbyjs.org/plugins/)
+that would be time consuming to create on your own. One of the most useful plugins is
+an image processor, [gatsby-plugin-image](https://www.gatsbyjs.com/plugins/gatsby-plugin-image), which automatically handles image lazy-loading and responsiveness.
 
-## Let's Build!
+## Let's build!
 
 ### Setup your development environment
 
 Gatsby provides a great introduction to [setting up your environment](https://www.gatsbyjs.org/tutorial/part-zero/).
-I'll give a summary here:
+I'll give a summary of what's required here:
 
 - [GitHub](https://github.com/) Account
-  - This is where your blog will live.
-- Install [Git](https://git-scm.com/downloads) for your operating system.
+  - GitHub will hold the code, images, and content the site will use to build.
+- [Git](https://git-scm.com/downloads)
+  - Version control software.
 - [Netlify](https://www.netlify.com) Account
   - Netlify will host your blog and update as you push changes up to your GitHub repository.
-- [NodeJS LTS](https://nodejs.org/en/) - I used Node version 10.6.3 at the time of writing.
-  - JavaScript Runtime. Installing Node will install [npm](https://www.npmjs.com) as well.
-- [Gatsby CLI](https://www.gatsbyjs.org/tutorial/part-zero/#using-the-gatsby-cli) (Command Line Interface)
+- [NodeJS LTS](https://nodejs.org/en/)
+  - JavaScript Runtime. Installing Node will also automatically install [npm](https://www.npmjs.com).
+  - Note: I used Node version 10.6.3 at the time of writing.
+- [Gatsby CLI](https://www.gatsbyjs.org/tutorial/part-zero/#using-the-gatsby-cli)
   - Install via: `npm install -g gatsby-cli`
   - This will be your main way to interface with Gatsby.
 
-### One-click install
-
-Whew . . . that was a lot of installs. Thankfully now you're
-only 2 minutes away from having a live website! (Really!)
+### One-click deploy
 
 Head to [this GitHub repo](https://github.com/gatsbyjs/gatsby-starter-blog) and look
 for the "Deploy to netlify" button. All you have to do now is name a repository
@@ -65,7 +61,7 @@ at `[yourSiteName].netlify.com`!
 
 ![Netlify Deploy](./netlify-deploy.png)
 
-### Create your first blog post!
+### Create your first blog post
 
 Navigate to your new repository on GitHub and `git clone` the repository to your
 local machine. Open the repository in a text editor [like VS Code](https://code.visualstudio.com/) and use these steps
@@ -108,3 +104,5 @@ Once you push the changes to the repository, log in to Netlify and you will see 
 new changes being applied to your site.
 
 ![Netlify Build Status](./netlify-build.png)
+
+Enjoy your new blog!
