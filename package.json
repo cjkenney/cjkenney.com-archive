@@ -35,7 +35,9 @@
     "typography": "^0.16.19",
     "typography-theme-wordpress-2016": "^0.16.19"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "rimraf": "^3.0.2"
+  },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "keywords": [
     "gatsby"
@@ -47,6 +49,7 @@
     "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
   },
   "scripts": {
+    "clean": "rimraf .cache & rimraf public",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",

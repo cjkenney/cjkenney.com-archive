@@ -1,7 +1,7 @@
 ---
-title: How I Made This Blog (For Free!)
-date: "2019-10-07T22:12:03.284Z"
-description: "And how you can too! An introduction to GatsbyJS and Netlify"
+title: Bootstrapping a Blog With GatsbyJS
+date: '2019-10-07T22:12:03.284Z'
+description: 'How I built this site with GatsbyJS, GitHub, and Netlify.'
 ---
 
 Welcome to my first blog post! I thought it would be a great introduction
@@ -26,7 +26,7 @@ Plain HTML, CSS, and JS are generated at build-time, not during run-time like so
 
 A lot of features come "pre-baked" with Gatsby as [plugins](https://www.gatsbyjs.org/plugins/)
 that would be time consuming to create on your own. One of the most important plugins is
-an image processer, [gatsby-image].
+an image processer, [gatsby-plugin-image](https://www.gatsbyjs.com/plugins/gatsby-plugin-image), which handles image lazy-loading, responsiveness, and bleh.
 
 ## Let's Build!
 
