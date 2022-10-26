@@ -29,58 +29,74 @@ How I built my skis
 
 ## Ski Design
 
-What type of ski would you like to ride?
+What type of skis would you like to ride?
+
 Fast-turning skis to rip through groomers?
 Floaty off-piste surfers?
 Park skis that ride like [al dente pasta](https://www.youtube.com/watch?v=PXzuiz7Fzjo)?
 
-Every ski modifies the same set of parameters to create a unique feel. These parameters include:
-(Ranked roughly in order of importance)
+Each pair of skis modifies the same set of parameters to create a unique feel.
+These parameters include:
 
-1. Turn Radius
-  - This is the result of the skis' length and width.
-  - [Turn radius calculator](https://member.fis-ski.com/skicalc.htm)
-  TODO
-  - Ski Length
-    - The length of the skis from tip to tail.
-    - This parameter can vary on the rider's height and skill level.
-      - A good rule of thumb is to ride skis that line up close to your eye-level when holding the skis vertically.
-    - Effective edge is actually more important here TODO
+### Ski Length
+  The length of the skis from tip to tail.
 
-    Some things to note:
-    - Longer skis tend to *ride* faster than shorter skis.
-      - This is because the force exerted by the skier is distributed over a larger and longer surface area, decreasing drag on the snow.
-    - Shorter skis tend to *turn* faster than longer skis.
-      - This is due to the . . .
-  - Ski Width
-    - Specifically, this is the width of the ski measured at the thinnest point, also called the "waist".
+  This parameter can vary on the rider's height and skill level.
+  A good rule of thumb is to ride skis that line up close to your eye-level when holding the skis vertically.
 
-  - The sidecut is the "hourglass" shape a ski makes when viewing the ski from the top.
-  It is the aggregate of the ski's length and the ski's width.
-  - The turn radius is created by extending the sidecut of the ski into a full circle.
-  - If you were riding skis with an 18 meter turn radius and you were to turn to the right, you would be riding clockwise along the perimeter of an 18 meter circle.
+  A ski's *effective edge* is a subset of the ski's total length.
+  The effective edge is the area that touches the ground during a turn.
+  Think of the concave area of the ski's sidecut.
+
+  Things to note when choosing a ski length:
+  - Longer skis tend to *ride* faster than shorter skis.
+    - This is because the force exerted by the skier is distributed over a larger surface area, decreasing drag on the snow.
+  - Shorter skis tend to *turn* faster than longer skis.
+    - With the force of the skier's turn is greater because it is being applied over a smaller area.
+
+### Ski Width
+  Specifically, this is the width of the ski measured at the thinnest point, also called the ski's "waist".
+
+  The sidecut is the "hourglass" shape a ski makes when viewing the ski from the top.
+
+  Things to note when choosing a ski width:
+  - Narrower skis "turn over" easily from edge to edge, and provide more grip.
+    - Racing/slalom skis have narrow ski widths (~60mm-80mm).
+  - Wider skis require more work to turn over, but float better in powder because of their larger surface area.
+    - Many powder-specific skis have wide ski widths (100mm+).
+  - Most all-mountain (general purpose) skis have widths ranging from ~85mm-105mm.
+
+### Turn Radius
+  The turn radius is the aggregate of the ski's length and the ski's width.
+  It is created by extending the sidecut of the ski into a full circle.
+  For example, if you were riding skis with an 18 meter turn radius and you were to turn to the right, you would be riding clockwise along the perimeter of an 18 meter circle.
+
   TODO add diagram
+  - [Turn radius calculator](https://member.fis-ski.com/skicalc.htm)
 
-  Example skis and their turn radius specs:
-  - Ski racing skis generally have an agressive sidecut, yielding short, snappy turns.
-  - Powder skis have a longer sidecut, because 
-3. Ski Profile
-  - The ski's profile is not flat. When viewed from the side, skis TODO
-  - Traditionally, skis have a convex profile called "camber".
-    - A cambered profile allows for a skier to apply an even amount of pressure along the edge of the ski in a turn.
-    Also, skis with camber 
-  - A concave profile is called "reverse camber" or "rocker", like the feet of a rocking chair.
-  - This is influenced on the design of the ski press. TODO add link to ski press section?
+### Ski Profile
+  Traditionally, skis have a convex profile called "camber".
+  A camber profile allows for a skier to apply an even amount of pressure along the edge of the ski in a turn.
+  Also, skis with camber 
+  
+  A concave profile is called "reverse camber" or "rocker", like the feet of a rocking chair.
+  
+  The ski's profile is influenced on the design of the ski press. TODO add link to ski press section?
+
+### Ski Thickness/Taper
+  Also known as a ski's "flex" or "flex pattern"
+  When viewing the skis from the side, you will see that the ski is thickest in the middle and thins out as you move to each tip.
+
+  The thickness of the material used in the ski determines its logitudinal flex.
+  A stiffer ski will be more stable at speed, while softer skis are more forgiving when applying turning force.
+  - TODO "Flex pattern"
+
 4. Mounting location
   - The mounting location is the area where the skier's boots attach to the skis.
   This can range from the true center of the ski, to being ~10cm back from the center of the ski.
   - Center mounted or "Twin tip" skis allow the skier to more easily ski "switch" or backwards.
   The center of mass and pivot point is at the middle of the ski.
   -
-5. Ski Thickness/Taper
-  - Also known as a ski's "flex" or "flex pattern"
-  - When viewing the skis from the side, you will see that the ski is thickest in the middle and thins out as you move to each tip.
-  - TODO "Flex pattern"
 6. Material Choice
   - Heavy wood charging ski
   - Light wood floaty/touring specific
@@ -103,8 +119,8 @@ I'll cover more in-depth ski design tips in the [Designing in CAD Software] TODO
 
 ## Press Design
 
-The ski press is a specialized tool that bonds together all the components of a ski to the right specification.
-The design parameter that the ski press modifies is the skis' profile.
+The ski press is a specialized tool that bonds together all the components of a ski.
+Specifically, the design parameter that the ski press modifies is the ski's profile.
 
 ### Ski Molds
 Ski Molds are designed to give the skis their profile.
