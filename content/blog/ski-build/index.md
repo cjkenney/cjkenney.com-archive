@@ -159,6 +159,10 @@ This press is used by professional ski manufacturers.
 The ski mold is typically only the bottom half, while the top section is displaced using an air bladder.
 Many TODO Some? or many? pneumatic presses use fire hoses as the bladder.
 
+Each of these press designs use MDF molds
+TODO variable length MDF molds
+
+
 # Designing the Skis and Molds in CAD Software
 
 Tips
@@ -167,6 +171,7 @@ Tips
   You can easily fit a ski template and press template within a standard plotter's width.
   I sent my design to a local UPS store with a plotter.
   They charged me per foot of printed length. $10 total.
+- A good starting point to design is to find images of a ski similar to one you would like to design and "trace" the design in your design software.
 
 # Materials
 
@@ -176,7 +181,7 @@ Each material gives a certain characteristic or function in the ski.
 Starting from the bottom-up, here are the materials you'll find in most skis:
 - Base material
   - This is the part that glides on the snow.
-  It is made of P-Tex, a polyethylene plastic.
+  It is made of "P-Tex", a polyethylene plastic.
   This plastic comes in 2 varieties, each with their own properties:
     - Extruded
       - Formed by melting and molding the plastic into shape.
@@ -192,9 +197,10 @@ Starting from the bottom-up, here are the materials you'll find in most skis:
 - Fiberglass fabric
   - Usually in a triaxial weave, meaning 3 strands of fiberglass are weaved together to create a cloth
 - Wood Core
-  - The most popular types of wood in skis are As
+  - The most popular types of wood in skis are Poplar, Aspen, Maple, Bamboo
   - Occasionally you will find skis cores mixing species of wood to combine benefits.
   For example, a ski could be constructed of mostly Poplar with alternating Maple "stringers" in the middle.
+  A ski with this wood compisition will have a "springy" feel from the Poplar, but still maintain the sturdiness of the Maple.
 
 # How I Built My Skis
 
@@ -247,22 +253,47 @@ I was lucky enough to find MDF "blemished" with forklift marks at a heavy discou
 ## Template Ski
 Print blueprint
 Glue spray on mdf
+Easiest to rough cut MDF to the template with a jigsaw and then sand to match the edges.
+Take your time with this process because the template sets the baseline for the rest of the build.
 Sand to the edges
 
+
 ## Bases
+Base material comes shipped in a roll.
+Before cutting the material, unroll the material and place weights so the material flattens.
+It is easiest to cut the material with a razor blade.
+Clamp the base material to your template and use a router with a flush trim bit to transfer the template to the material.
+It is helpful to use a white sharpie on the base material for markings.
+Mark the tip and tail of your base material to keep it aligned later in the layup process.
+The smooth side of the base material will be touching snow, while the rougher
 
 # Mounting
+Two options:
+Find a template online that matches your bindings - eg. Google "Look Pivot mounting template"
+TODO find mounting video - masking tape/super glue technique
+TODO find drill bit size - I think it was 3/16 in?
+When marking holes, rotate the drill bit to get an even mount hole
+
+Wrap masking tape to depth of the screw.
+Put a bit of super glue on the bottom of the screw to help keep it in place.
 
 # Stone Grinding
+Stone grinding gives structure to the base material.
+It also
 
 # Graphics
-
 Can use rice paper graphics
 
 # Mistakes / What I Would Do Differently Next Time
 
 - Design of my skis didn't account for the 2mm width of the ski edges.
 Everything but the topsheet needed to be cut -2mm along the entire perimeter.
+  I would make my template with one side at regular width, and on the other side extruded +2mm.
+  TODO find video where the dude explained this - think it was the video series where he messed up the epoxy layup.
+  Black mountain ski co video series?
+- When printing my template, I exported my CAD design to print with multiple pages.
+  I taped together the pages and built a template, but it wasn't straight.
+  This was dumb. For V2 of the template, I sent my design file to be printed with a plotter at a UPS store.
 
 # Resources
 
