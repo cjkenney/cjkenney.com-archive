@@ -6,8 +6,7 @@ description: "Complete guide - design, materials, building"
 
 TODO run thru spell check
 
-This blog post is my attempt to organize all of the things I've learned while building my first pair of skis.
-Because of the limited information available online, building skis is tough.
+This blog post is my attempt to organize all the things I've learned while building my first pair of skis.
 
 Note: If you are looking to build a snowboard, you will find value in this post as well.
 Snowboards are very similar to skis in their design and construction.
@@ -29,19 +28,20 @@ How I built my skis
 
 ## Ski Design
 
-All modern skis are built upon the same set of parameters.
-Changes to these parameters affect the feel and performance of the skis.
+All modern skis are built using the same set of parameters.
+Changes to these parameters affect the performance and feel of the skis.
 These parameters include:
 
 ### Ski Length
   The length of the skis from tip to tail.
 
-  This parameter can vary on the rider's height and skill level.
   A good rule of thumb is to ride skis that line up close to your eye-level when holding the skis vertically.
+  This parameter can vary on the rider's height and skill level.
 
   A ski's *effective edge* is a subset of the ski's total length.
   The effective edge is the area that touches the ground during a turn.
-  Think of the concave area of the ski's sidecut.
+  Think of it as the concave area of the ski's sidecut.
+  The sidecut is the "hourglass" shape a ski makes when viewing the ski from the top.
 
   Things to note when choosing a ski length:
   - Longer skis tend to *ride* faster than shorter skis.
@@ -50,9 +50,8 @@ These parameters include:
     - With the force of the skier's turn is greater because it is being applied over a smaller area.
 
 ### Ski Width
-  Specifically, this is the width of the ski measured at the thinnest point, also called the ski's "waist".
 
-  The sidecut is the "hourglass" shape a ski makes when viewing the ski from the top.
+  Specifically, this is the width of the ski measured at the thinnest point, also called the ski's "waist".
 
   Things to note when choosing a ski width:
   - Narrower skis "turn over" easily from edge to edge, and provide more grip.
@@ -70,68 +69,85 @@ These parameters include:
   - [Turn radius calculator](https://member.fis-ski.com/skicalc.htm)
 
 ### Ski Profile
+
   Traditionally, skis have a convex profile called "camber".
   A camber profile allows for a skier to apply an even amount of pressure along the edge of the ski in a turn.
-  Also, skis with camber 
   
   A concave profile is called "reverse camber" or "rocker", like the feet of a rocking chair.
   
-  The ski's profile is influenced on the design of the ski press. TODO add link to ski press section?
+  The ski's profile is influenced on the design of the ski press.
 
 ### Ski Thickness/Taper
-  Also known as a ski's "flex" or "flex pattern"
+
+  Also known as a ski's "flex" or "flex pattern".
   When viewing the skis from the side, you will see that the ski is thickest in the middle and thins out as you move to each tip.
 
   The thickness of the material used in the ski determines its logitudinal flex.
   A stiffer ski will be more stable at speed, while softer skis are more forgiving when applying turning force.
-  - TODO "Flex pattern"
 
-4. Mounting location
-  - The mounting location is the area where the skier's boots attach to the skis.
-  This can range from the true center of the ski, to being ~10cm back from the center of the ski.
-  - Center mounted or "Twin tip" skis allow the skier to more easily ski "switch" or backwards.
-  The center of mass and pivot point is at the middle of the ski.
-  -
-6. Material Choice
+### Ski Binding Mounting Point
+
+  The mounting point is the area where the skier's boots attach to the skis via the bindings.
+  This location can range from ~10cm behind the center of the ski, to the true center of the ski.
+
+  A mounting point farther back from the center of the ski shifts the skiers weight back.
+  This allows for more "float" in powder, but results in turns being harder to initiate.
+
+  A mounting point further forward allows for the skier to initiate turns with less effort.
+  Skis with forward mounting points feel "shorter".
+
+  Park skiers prefer center mounted (or close to center mounted) skis.
+  This allows the skier to more easily ski backwards or "switch".
+
+### Material Choice
+
+  TODO
   - Heavy wood charging ski
   - Light wood floaty/touring specific
   - Damp vs. poppy
   - Buttery
 
-9. Tip shape
+## Ski Parameters Are Coupled
 
-Note: Many of the paramaters you modify in the ski design will change other parameters.
-For example, ski width and ski length are coupled with the turn radius.
+Most of the paramaters you modify in a ski's design will change other parameters.
 
-If you widen a skis design while keeping the same length, the turn radius will be larger.
-If you lenghten a ski but keep the width the same, the turn radius will also be larger.
-
-If you own a pair of skis you enjoy riding, it can be helpful to study how these parameters affect the ride.
-Note how you would modify that pair of skis' parameters in a new ski design.
-
-There's really no right or wrong choice for each of these parameters.
+Some examples:
+  - Ski width and ski length are coupled with the turn radius.
+  - If you widen a ski's design while keeping the same length, the turn radius will be larger.
+  - If you lenghten a ski but keep the width the same, the turn radius will also be larger.
 
 I'll cover more in-depth ski design tips in the [Designing in CAD Software] TODO section.
 
-### Where to Start?
+## There's Too Many Parameters to Change - Where to Start?
 
-The amount of paramaters available to modify can lead to decision fatigue.
+The amount of design decisions at this step can lead to decision fatigue.
+There's really no right or wrong choice for each of the parameters.
+I tended to scrutinize over each detail in my design, but it turned out not to matter.
+There's a large margin of acceptable error.
+A ski will ride fine if it looks like a ski.
+
 A good place to start is to examine a pair of skis you enjoy riding.
-What do you like about the skis?
-Ease of turning, playfulness, and TODO are some factors to consider.
 
-What would you like to change?
+#### What do you like about the skis?
+
+Ease of turning and playfulness could be some factors to consider.
+
+#### What would you like to change about the skis?
+
 Do the skis become unstable at speed?
 Have the skis "washed out" on a turn because they were too flexible?
 
-The best way to try different skis is to visit your local resort's "demo day".
-Manufacturers bring many models of skis for riders to test.
+#### Demo Days
+
+I recommend extending the idea of looking at your own skis by attending a ski resort's "demo day".
+On a demo day, manufacturers bring many models of skis for riders to test.
+Try riding a ski that's entirely different than the one you currently own.
 Take notes when you're riding the skis.
 Talk to the representatives to get their opinion on what they like.
 
 #### Example Skis
 
-What type of skis would you like to ride?
+TODO flesh out?
 
 Fast-turning skis to rip through groomers?
 Use a smaller turn radius.
@@ -144,17 +160,21 @@ Consider a "damp" wood like Bamboo.
 
 ## Press Design
 
-The ski press is a specialized tool that bonds together all the components of a ski.
+The ski press is a specialized tool that bonds together all components of a ski.
 The design parameter that the ski press manipulates is the ski's profile.
 
 ### Ski Molds
-Ski Molds are designed to give the skis their profile.
-They're made of MDF, which is cheap, cuts easily, and can withstand press pressure.
 
-Some press designs use only the bottom mold.
+Ski Molds are designed to give the skis their profile.
+They're made of medium-density fiberboard (MDF).
+MDF is cheap, cuts like butter, and when stood on edge, withstands pressure from the press.
+
+Some press designs use only a bottom mold.
 Others use a bottom mold and an inverse top mold.
 Typically, the molds are wide enough to hold 2 skis (or 1 snowboard) during the press.
-TODO write about if the ski press is only 1 ski wide, it runs the risk of having inconsistent ski profiles.
+
+TODO variable length MDF molds
+TODO find that pic of a variable MDF molds/different components
 
 ### Types of Press Designs
 
@@ -162,40 +182,44 @@ Listed in increasing order of complexity.
 TODO find that ski builders or happy monkey snowboard blog post with explainer on press designs
 
 #### Clamp Press
+
 The simplest press design.
+
 The clamp press fits skis in between a top and bottom mold.
-Pressure is then applied to the skis from the top using clamps and/or weight.
+Pressure is applied to the skis from the top using clamps and/or weight.
 The weight can be from sandbags, buckets of water, or even a vehicle driven on top of the press.
 
 This press design is the easiest and cheapest to build, but it exerts low/uneven pressure, which can cause the final ski to not laminate properly.
 
 #### Vacuum Press
-Another cheap press design.
-The vacuum press works by placing the ski on top of the bottom section of a mold and covered in an air-tight film.
+
+The vacuum press works by placing the ski upon a bottom section mold and covered in an air-tight film.
 A vacuum pump is attached to the film and removes the air from the mold.
 The pressure differential between the vacuum inside the press vs. the atmospheric pressure outside is used to press the ski.
 
 Although the vacuum press has better pressure than the clamp press, the maximum pressure you can apply with a vacuum is 1 atmosphere or ~14.7 PSI.
 Effective pressure will be lower because it is hard to seal a perfect vacuum.
+Also, elevation above sea level lowers atmospheric pressure.
 
-Many woodworkers use this type of press to apply veneers.
+Many woodworkers use this vacuum presses to apply veneers.
 There are a few turnkey vacuum systems available for purchase from woodworking suppliers.
 If you're looking to build a DIY vacuum press, this is an often referenced guide.
 https://www.joewoodworker.com/veneering/welcome.htm
 
 #### Pneumatic Press
+
 This press is used by professional ski manufacturers and experienced hobby ski builders.
 The ski mold is typically only the bottom half, while the top section is displaced using an air bladder.
-Many TODO Some? or many? pneumatic presses use fire hoses as the bladder.
-
-Each of these press designs use MDF molds
-TODO variable length MDF molds
-
+Many pneumatic presses use a fire hose as the bladder.
+Fire hoses can withstand the air pressure.
 
 # Designing the Skis and Molds in CAD Software
 
 Tips
-- Render comments like the ski's center, effective edge, and measurement numbers to the final output within the software before you print.
+- Design in metric, not imperial.
+The language of skiing is metric.
+You don't want to be constantly converting back and forth.
+- Render comments like the ski's center, effective edge, and measurements to the final output within the software before you print.
 - Find a print shop that has a plotter printer to print your templates.
   You can easily fit a ski template and press template within a standard plotter's width.
   I sent my design to a local UPS store with a plotter.
@@ -208,28 +232,47 @@ Skis are made by sandwiching materials together using epoxy.
 Each material gives a certain characteristic or function in the ski.
 
 Starting from the bottom-up, here are the materials you'll find in most skis:
-- Base material
-  - This is the part that glides on the snow.
-  It is made of "P-Tex", a polyethylene plastic.
-  This plastic comes in 2 varieties, each with their own properties:
-    - Extruded
-      - Formed by melting and molding the plastic into shape.
-    - Sintered
-      - Formed by grinding the plastic into a powder and pressing into shape.
-      Sintering is similar to pressing a clump of snow together in your hands to create a snowball.
-      The pressure causes the material to melt and re-form into a stronger state.
-      - Sintered bases are more expensive, but are more pourous, allowing the ski to accept wax well.
-      This leads to the ski being faster.
-  - Base material is porous to accept wax - helping the ski glide faster.
-- Edges
-  - Steel with tabs
-- Fiberglass fabric
-  - Usually in a triaxial weave, meaning 3 strands of fiberglass are weaved together to create a cloth
-- Wood Core
-  - The most popular types of wood in skis are Poplar, Aspen, Maple, Bamboo
-  - Occasionally you will find skis cores mixing species of wood to combine benefits.
-  For example, a ski could be constructed of mostly Poplar with alternating Maple "stringers" in the middle.
-  A ski with this wood compisition will have a "springy" feel from the Poplar, but still maintain the sturdiness of the Maple.
+## Base material
+
+This is the part that glides on the snow.
+It is made of "P-Tex", a polyethylene plastic.
+P-Tex is porous and accepts wax - helping the ski glide faster.
+
+This plastic comes in 2 varieties, each with their own properties:
+  - Extruded
+    - Formed by melting and molding the plastic into shape.
+  - Sintered
+    - Formed by grinding the plastic into a powder and pressing into shape.
+    Sintering is similar to pressing a clump of snow together in your hands to create a snowball.
+    The pressure causes the material to melt and re-form into a stronger state.
+    - Sintered bases are more expensive, but are more pourous, allowing the ski to accept wax well.
+    This leads to the ski being faster.
+
+## Edges
+
+Steel with tabs.
+TODO picture
+Comes in a roll.
+Wear gloves and eye protection when unraveling the roll.
+
+## Fiberglass fabric
+
+Usually in a triaxial weave, meaning 3 strands of fiberglass are weaved together to create a cloth
+
+## Wood Core
+
+Poplar, Aspen, Ash, and Maple are common woods used in skis.
+
+Occasionally you will find skis cores mixing species of wood to combine benefits.
+For example, a ski could be constructed of mostly Poplar with alternating Ash "stringers" in the middle.
+TODO picture of stringers
+A ski with this wood compisition will have a "springy" feel from the Poplar, but still maintain the sturdiness of the Maple.
+
+## Sidewalls
+
+Made of ABS plastic.
+Used to give the ski torsional rigitity.
+Also adds a waterproof layer protecting the wood core.
 
 # How I Built My Skis
 
@@ -240,8 +283,7 @@ Length 182cm
 Width 90mm
 Turn Radius 20m
 Rocker - Camber - Rocker profile
-ABS TODO? Sidewalls
-I won't go into sidewall vs. cap construction.
+ABS Sidewalls
 Bamboo Laminate Core
 Symmetric sidecut
 Sintered Base
