@@ -47,7 +47,7 @@ These parameters include:
   - Longer skis tend to *ride* faster than shorter skis.
     - This is because the force exerted by the skier is distributed over a larger surface area, decreasing drag on the snow.
   - Shorter skis tend to *turn* faster than longer skis.
-    - With the force of the skier's turn is greater because it is being applied over a smaller area.
+    - The force of the skier's turn is greater because it is being applied over a smaller area.
 
 ### Ski Width
 
@@ -167,7 +167,7 @@ The design parameter that the ski press manipulates is the ski's profile.
 
 Ski Molds are designed to give the skis their profile.
 They're made of medium-density fiberboard (MDF).
-MDF is cheap, cuts like butter, and when stood on edge, withstands pressure from the press.
+MDF is cheap, cuts like butter, and when stood on edge, withstands high pressures from the pressing force.
 
 Some press designs use only a bottom mold.
 Others use a bottom mold and an inverse top mold.
@@ -321,13 +321,35 @@ I was lucky enough to find MDF "blemished" with forklift marks at a heavy discou
 
 # My Build
 
-## Template Ski
-Print blueprint
-Glue spray on mdf
-Easiest to rough cut MDF to the template with a jigsaw and then sand to match the edges.
-Take your time with this process because the template sets the baseline for the rest of the build.
-Sand to the edges
+My skis were made using a clamp press.
+The specs of the skis are:
+- 182cm length
+- 92mm width
+- 20m turn radius
+TODO other specs?
 
+TODO add a picture of the skis here
+
+## Design Template Ski
+
+I first created a CAD model of the skis I wanted.
+I added guidelines and measurements in the CAD program, so when I went to print it out, I could use the lines as a reference.
+TODO add picture of Sketchup
+
+To print the blueprint, I sent the PDF to my local UPS store.
+They had a plotter and could print out any length of paper.
+This was limited to about 4 feet in width, the width of the plotter printer.
+In order to maximize the space, I exported a top view and side view of the skis, and combined them into 1 PDF to fit the width of the plotter.
+The side view was used for the press camber and the top view was used for the skis' sidecut.
+TODO add picture of printout (check gmail)
+
+Once I received the print out, I cut out the top and side views and used spray glue to attach the paper to MDF.
+Then I rough cut the MDF to the template with a jigsaw and sanded to match the edges.
+Take your time with this process because the template sets the baseline for the rest of the build.
+
+## Press
+
+I decided to build a clamp press.
 
 ## Bases
 Base material comes shipped in a roll.
@@ -335,8 +357,10 @@ Before cutting the material, unroll the material and place weights so the materi
 It is easiest to cut the material with a razor blade.
 Clamp the base material to your template and use a router with a flush trim bit to transfer the template to the material.
 It is helpful to use a white sharpie on the base material for markings.
-Mark the tip and tail of your base material to keep it aligned later in the layup process.
+Mark the words "tip" and "tail" of your base material to keep it aligned later in the layup process.
 The smooth side of the base material will be touching snow, while the rougher
+
+TODO add pictures of base/ base cutting
 
 # Mounting
 Two options:
