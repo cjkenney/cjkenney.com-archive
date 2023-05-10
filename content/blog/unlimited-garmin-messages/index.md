@@ -4,6 +4,9 @@ date: "2023-05-09T00:00:00.000Z"
 description: ""
 ---
 
+Notes:
+Check messaging app on phone to see if message has been delivered
+
 # Garmin
 
 ## Message Format
@@ -18,7 +21,7 @@ Pros:
 ### Buffer
 
 Pros:
-- More predictable than Timestamp method
+- More consistent than Timestamp method
 
 Cons:
 - Requires that messages are sent.
